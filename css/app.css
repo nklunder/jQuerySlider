@@ -1,8 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+html {
+  font-family: Lato;
+  color: #efefef;
+  background-color: #111;
+}
+body{
+  margin: 0 2rem;
+}
 img {
+  border: 5px solid #efefef;
   width: 10rem;
   height: 10rem;
+  margin: 0 1rem 0 0;
+  float: left;
 }
-
 li {
   list-style: none;
+}
+a, h1 {
+  color: lime;
+}
+button h1 {
+  color: #333;
+}
+p {
+  line-height: 1.3rem;
+}
+.title {
+  font-size: 2.5rem;
 }

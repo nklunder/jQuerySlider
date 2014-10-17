@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>jQuery Slider Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-  <div id="item-slider">
-    <h1>Title</h1>
-    <ul>
-      <li id="1">
-        <img src="img/album_1.jpg" alt="">
-        <p>Text goes here <a href="http://en.wikipedia.org/wiki/Unknown_Pleasures">Link to something</a></p>
-      </li>
-      <li id="2">
-        <img src="img/album_2.jpg" alt="">
-        <p>Text goes here <a href="http://en.wikipedia.org/wiki/London_Calling">Link to something</a></p>
-      </li>
-      <li id="3">
-        <img src="img/album_3.jpg" alt="">
-        <p>Text goes here <a href="http://en.wikipedia.org/wiki/Yoshimi_Battles_the_Pink_Robots">Link to something</a></p>
-      </li>
-    </ul>
-      <button>1</button><button>2</button><button>3</button>
-<!--   <button id="prev">Previous</button><button id="next">Next</button>
- -->  </div>
+  <section>
+    <h1 class="title">History of the Artists</h1>
+    <button>
+      <h1>Toggle Album Art</h1>
+    </button>
+  </section>
+  <section>
 
-
+    <section class="cf">
+      <h2>The Clash</h2>
+      <img src="img/album_1.jpg" alt="">
+      <p>London Calling is the third studio album by English punk rock band The Clash. It was released in the United Kingdom on 14 December 1979 by CBS Records, and in the United States in January 1980 by Epic Records.[1] London Calling is a post-punk album that incorporates a range of styles, including punk, reggae, rockabilly, ska, New Orleans R&B, pop, lounge jazz, and hard rock. The album's subject matter included social displacement, unemployment, racial conflict, drug use, and the responsibilities of adulthood <a href="http://en.wikipedia.org/wiki/London_Calling">Link to their Wiki.</a>
+      </p>
+    </section>
+    <section class="cf">
+      <h2>Joy Division</h2>
+      <img src="img/album_2.jpg" alt="">
+      <p>Unknown Pleasures is the debut studio album by the English post-punk band Joy Division. It was recorded at Strawberry Studios in Stockport in April 1979, with Martin Hannett as producer, and was released on 15 June 1979 by Factory Records. It followed an abandoned album for RCA Records. No singles were released from Unknown Pleasures, though the release of "Transmission" boosted its sales, despite the album failing to chart at the time. <a href="http://en.wikipedia.org/wiki/Unknown_Pleasures">Link to their Wiki.</a>
+      </p>
+    </section>
+    <section class="cf">
+      <h2>Flaming Lips</h2>
+      <img src="img/album_3.jpg" alt="">
+      <p>Yoshimi Battles the Pink Robots is the tenth studio album by The Flaming Lips, released by Warner Bros. Records on July 16, 2002, in the United Kingdom and the following day in the United States. It is characterized by electronic-influenced, psychedelic-tinged indie rock compositions. It has been certified Gold by the RIAA.[1] Yoshimi was well-received critically and commercially, helping the band break into the mainstream. The album was adapted into a musical in 2012. <a href="http://en.wikipedia.org/wiki/Yoshimi_Battles_the_Pink_Robots">Link to their Wiki.</a>
+    </section>
+  </section>
 
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
+  </script>
   <script src="/js/app.js"></script>
 </body>
+
 </html>
